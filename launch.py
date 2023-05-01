@@ -7,7 +7,7 @@ import os
 import socket
 import glob
 from omegaconf import OmegaConf
-import inquirer
+#import inquirer
 import pathlib
 
 from hydra.core.override_parser.overrides_parser import OverridesParser
@@ -275,6 +275,7 @@ def construct_cmd(args):
     if args.test:
         cli += ' test_only=True '
     if args.local:
+        cli += (' data_train.workers=4 data_eval.workers=4 ')
         cli += (' hydra.launcher.nodes=1 '
                 f' hydra.launcher.gpus_per_node={num_gpus()} '
                 ' hydra/launcher=submitit_local ')
