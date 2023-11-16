@@ -22,10 +22,3 @@ Here are some key links to explore:
 ## Authors
 
 - [@oliciep](https://www.github.com/oliciep)
-
-
-
-
-## Acknowledgements
-
-The codebase was built on top of [`facebookresearch/VMZ`](https://github.com/facebookresearch/VMZ). Many thanks to [Antonino Furnari](https://github.com/fpv-iplab/rulstm), [Fadime Sener](https://cg.cs.uni-bonn.de/en/publications/paper-details/sener-2020-temporal/) and [Miao Liu](https://github.com/2020aptx4869lm/Forecasting-Human-Object-Interaction-in-FPV) for help with prior work.
